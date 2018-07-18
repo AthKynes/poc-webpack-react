@@ -13,5 +13,8 @@ module.exports = {
       'jsx',
       'json',
       'node'
-    ]
+    ],
+    moduleNameMapper: {
+      '\.(css|jpg|png)$': '<rootDir>/empty-module.js',
+    },
   }
